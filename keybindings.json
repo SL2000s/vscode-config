@@ -216,5 +216,9 @@
     {
         "key": "ctrl+q",
         "command": "-workbench.action.quit"
+    },
+    {
+        "key": "shift+alt+e",
+        "command": "workbench.action.toggleSidebarVisibility"
     }
 ]
