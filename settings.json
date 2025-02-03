@@ -1,4 +1,9 @@
 {
     "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Default High Contrast Light"
+    "workbench.colorTheme": "Default High Contrast Light",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": false
 }
