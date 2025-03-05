@@ -245,5 +245,15 @@
         "key": "ctrl+shift+x",
         "command": "workbench.action.toggleSidebarVisibility",
         "when": "activeViewlet == 'workbench.view.extensions'"
+    },
+    {
+        "key": "ctrl+meta+i",
+        "command": "workbench.panel.chat",
+        "when": "workbench.panel.chat.view.copilot.active"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "-workbench.panel.chat",
+        "when": "workbench.panel.chat.view.copilot.active"
     }
 ]
