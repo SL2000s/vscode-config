@@ -5,5 +5,21 @@
         "language-julia.interrupt"
     ],
     "julia.symbolCacheDownload": true,
-    "julia.enableTelemetry": false
+    "julia.enableTelemetry": false,
+    "latex-workshop.latex.build.forceRecipeUsage": true,
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.log",
+        "*.out",
+        "*.toc",
+        "*.lof",
+        "*.lot",
+        "*.fls",
+        "*.fdb_latexmk",
+        "*.synctex.gz"
+    ],
+    "latex-workshop.latex.clean.method": "glob",
+    "latex-workshop.latex.autoClean.run": "onSucceeded"
 }
