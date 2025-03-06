@@ -255,5 +255,35 @@
         "key": "ctrl+alt+i",
         "command": "-workbench.panel.chat",
         "when": "workbench.panel.chat.view.copilot.active"
+    },
+    {
+        "key": "alt+y",
+        "command": "list.focusPageUp",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "alt+h",
+        "command": "list.focusPageDown",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "alt+i",
+        "command": "list.focusUp",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "alt+k",
+        "command": "list.focusDown",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "alt+l",
+        "command": "list.expand",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "alt+j",
+        "command": "list.collapse",
+        "when": "listFocus && !inputFocus && !treestickyScrollFocused"
     }
 ]
