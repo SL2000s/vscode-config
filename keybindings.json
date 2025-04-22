@@ -10,6 +10,16 @@
         "when": "textInputFocus"
     },
     {
+        "key": "alt+z",
+        "command": "cursorTop",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+z",
+        "command": "cursorBottom",
+        "when": "textInputFocus"
+    },
+    {
         "key": "alt+shift+n",
         "command": "explorer.newFolder"
     },
